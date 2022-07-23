@@ -5,7 +5,6 @@ import { Container } from './components/Container.styled';
 import { Footer } from './components/Footer';
 import { AuthProvider } from './context/AuthProvider';
 import { ThemeProvider } from './context/ThemeProvider';
-import rgbToHsl from '../../server/utils/rgbToHsl';
 import { FooterShowProvider } from './context/FooterShowProvider';
 
 type GlobalStylesProps = { colour: number };
